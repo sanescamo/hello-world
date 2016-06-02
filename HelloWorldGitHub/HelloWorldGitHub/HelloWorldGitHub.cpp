@@ -28,12 +28,13 @@ int main()
         {
             // TODO: change error code to suit your needs
             wprintf(L"Fatal Error: MFC initialization failed\n");
-            nRetCode = 1;
+            nRetCode = 1; 
         }
         else
         {
             // TODO: code your application's behavior here.
 			printf("Hello world!!");
+			// Escribo un comentario
         }
     }
     else
